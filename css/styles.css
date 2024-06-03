@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.links{
+    margin-left: 10px;
+}
+
+.links{
+    color: rgb(10, 56, 1);
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.links:hover{
+    color: rgb(1, 137, 5);
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+.nav{
+    background-color: beige;
+}
+nav a{
+    text-decoration: none;
+}
+
+
+.contenedor_limite{
+    background-color: rgb(181, 255, 169);
+    max-width: 1100px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin:0 auto;
+}
+
+section{
+    margin: 10px;
+}
+
+h1{
+color: rgb(11, 82, 0);
+font-size: 50px;
+text-align: center;
+}
+
+.estilos{
+    color: rgb(35, 118, 38);
+    text-align: center;
+    font-size: 25px;
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(193, 255, 169);
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card h2{
+font-size: 25px;
+
+}
+.card img{
+    width: 100%;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(195, 247, 183);
+}
+
+.contenedor_limite_2{
+    background-color: rgb(181, 255, 169);
+    max-width: 1200px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.padre{
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+/*grilla-------------------------------------------------------------------*/
+.parent {
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(252, 247, 206);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 5px;
+    }
+    
+.div1 { 
+        grid-area: 1 / 1 / 2 / 3;
+}
+.div1 img{
+        width: 100%;
+}
+  
+.div2 { 
+        grid-area: 2 / 1 / 3 / 2;
+}
+.div2 img{
+        width: 100%;
+}
+.div3 { 
+        grid-area: 2 / 2 / 3 / 3;
+}
+.div3 img{
+        width: 100%;
+}
+
+/*-------------------------------------------*/
+
+    @media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        align-items: start;
+    }
+}
